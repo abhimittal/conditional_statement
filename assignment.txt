@@ -1,0 +1,51 @@
+# Question 1 
+ year = input("Enter year you want to check")
+ if ((year%400==0)or((year%4==0) and(year%100!=0))):
+  print("year entered is a leap year")
+ else:
+  print("year entered is not a leap year")
+
+# questiom 2
+l = int(input("Enter value of length")
+b = int(input("Enter value of breath")
+if(l==b):
+ print("Dimensions belongs to square")
+else:
+ print("Dimensions belongs to rectangle")
+
+
+# Queastion 3
+first  = int(input("enter age of first person")
+second = int(input("enter age of second person")
+third = int(input("enter age of third person")
+if((first>second) and(first>third)):
+ print("first is eldest")
+elif((second>first) and (second>third)):
+ print("second is eldest")
+elif((third>first) and (third>second)):
+ print("third is eldest")
+elif((first<second)and(first<third)):
+ print("first is youngest")
+elif:((second<first)and(second<third)):
+ print("second is youngest")
+else:
+ print("third is youngest")
+
+# Question 4
+Points = int(input("Enter points scored")
+if((Points >=1) and (Points <=50)):
+ print("Sorry! No prize this time")
+elif((Points>=51)and(Points<=150)):
+ print("Congratulations you won wooden dog")
+elif((Points>=151)and(Points<=180)):
+ print("Congratulations you won Books")
+elif((Points>=181)and(Points<=200)):
+ print("Congratulations you won Choclates")
+
+# Question 5
+Units = int(input("Enter units you want to purchase")
+Cost = 100*Units
+if(Cost>1000):
+ Cost = (Cost)-(0.1*Cost)
+print(Cost)                                                    #This is the payable amount
+
